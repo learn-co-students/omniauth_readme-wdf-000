@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe SessionsController, type: :controller do
   describe 'get create' do
     it 'assigns omniauth data to @auth' do
-      auth_data = { 
+      auth_data = {
         'uid' => 1,     
         'info' => {
           email: 'Roberto@test.com',
